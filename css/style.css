@@ -1,0 +1,245 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+   
+background-color: #3b5998;
+   
+display: flex;
+   
+justify-content: space-between;
+   
+align-items: center;
+}
+
+.logo{
+
+width: 20%;
+}
+
+
+.logo img{
+    
+width: 100%;
+}
+.login{
+
+width: 55%;
+}
+
+form{
+   
+padding-left: 55px;
+}
+
+.form-group{
+
+display: inline-block;
+
+width: 200px;
+}
+input{
+
+height: 20px;
+
+margin: 10px 0;
+}
+
+label{
+
+color: #ffffff;
+
+font-size: 14px;
+
+text-transform: capitalize;
+}
+
+input[type="button"]{
+
+    cursor: pointer;
+
+background-color: #1c4598;
+
+border: none;
+
+outline: none;
+
+color: #ffffff;
+
+box-shadow: 0px 0px 1px 0px;
+
+border: 1px solid #3b5598;
+
+padding: 0px 10px;
+}
+
+input[type="button"]:hover{
+
+    background-color: #4367b2
+
+
+}
+
+
+.main-body{
+
+    display: flex;
+
+    background-color: #E9EBEE;
+
+    padding: 30px;
+
+    
+
+}
+
+.recent{
+
+    width: 50%;
+
+    
+}
+
+.recent h1, .signup-form h1{
+
+    font-size: 30px;
+    color: #292929;
+    margin-bottom: 8px;
+
+}
+
+.recent p,.signup-form p{
+
+    font-size: 16px;
+    color: #3a3a3a;
+    margin-bottom: 15px;
+
+}
+.recent img{
+
+    width: 70%;
+    height: 70%;
+}
+
+.sign-up{
+
+    width: 50%;
+}
+
+.signup-form{
+
+   
+
+}
+
+
+
+
+.signup-form form{
+
+    padding: 0;
+   
+}
+
+
+.signup-form form p{
+
+    color: #3a3a3a;
+    font-size: 15px;
+    letter-spacing: .5px;
+    line-height: 1.8;
+    
+}
+
+
+form{
+
+}
+
+
+.signup-form form input{
+
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #b9b9b9;
+
+    outline-color:#3b5998;
+    
+   
+
+}
+
+input[type="text"]{
+
+    margin-right: 18px;
+
+}
+
+.signup-form form input[type="email"]{
+
+    width: 372px;
+
+}
+
+.signup-form form input[type="password"]{
+
+    width: 372px;
+}
+
+.signup-form form label{
+
+    color: gray;
+    display: block;
+}
+
+input[type="date"]{
+
+    color: gray;
+    outline-color:#3b5998;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+input[type="radio"]{
+
+    margin: 0;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+
+
+.signup-form form input[type="submit"]{
+
+    background: #69A354;
+    height: 50px;
+    width: 180px;
+    color: #ffffff;
+    font-size: 20px;
+    outline: none;
+
+}
+
+.signup-form form input[type="submit"]:hover{
+
+    background: #476d39;
+}
+
+form p{
+
+    
+}
+
+input::placeholder{
+
+    color: #A69999;
+    font-size: 16px;
+}
+
+
